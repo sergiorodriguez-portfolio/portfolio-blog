@@ -1,0 +1,29 @@
+{
+  // ESLint + Prettier + Autosave
+  "eslint.validate": ["javascript", "vue", "html"],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Colores
+  "peacock.color": "#251110",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#49211f",
+    "titleBar.activeBackground": "#251110",
+    "titleBar.activeForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#49211f",
+    "activityBar.activeBorder": "#307033",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#307033",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#251110",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#49211f",
+    "titleBar.inactiveBackground": "#25111099",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
+}
