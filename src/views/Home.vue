@@ -2,9 +2,9 @@
   <div class="container px-6 mx-auto font-mono text-white">
     <!-- HERO -->
     <section class="py-20 font-sans">
-      <h1 class="mt-6 font-serif text-3xl lg:text-6xl w-6/6">
+      <h1 class="mt-6 text-5xl font-thin font-barlow lg:text-6xl w-6/6">
         <p>Hi there!</p>
-        <p>Sergio Rodriguez here.</p>
+        <p>My name is Sergio Rodriguez.</p>
       </h1>
       <h2 class="w-10/12 mt-3 font-thin m d:w-8/12 lg:w-6/12 xl:w-5/12">
         <p class="mt-4">
@@ -40,10 +40,10 @@
         <!-- texto -->
         <div class="col-span-12 md:col-span-6">
           <div class="flex flex-col md:ml-4">
-            <h3 class="font-mono text-xl font-medium">
+            <h3 class="text-2xl font-medium font-barlow">
               <a href="https://www.sudoers.cl/">www.sudoers.cl</a>
             </h3>
-            <p class="mt-2 font-extrafont-light">
+            <p class="mt-2 font-extralight font-roboto">
               Sudoers is my personal business. With a couple of former
               colleagues, we made this enterprise to became independent.
             </p>
@@ -61,10 +61,10 @@
         <!-- texto -->
         <div class="col-span-12 md:col-span-6">
           <div class="flex flex-col md:ml-4">
-            <h3 class="font-mono text-xl font-medium">
+            <h3 class="text-2xl font-medium font-barlow">
               <a href="https://www.sudoers.cl/">www.telbook.cl</a>
             </h3>
-            <p class="mt-2 font-extralight">
+            <p class="mt-2 font-extralight font-roboto">
               Telbook is a SaaS to manage physical school books in a digital
               way, according to the government guidelines.
             </p>
@@ -82,10 +82,10 @@
         <!-- texto -->
         <div class="col-span-12 md:col-span-6">
           <div class="flex flex-col md:ml-4">
-            <h3 class="font-mono text-xl font-medium">
+            <h3 class="text-2xl font-medium font-barlow">
               <a href="https://www.sudoers.cl/">www.bpc.zone</a>
             </h3>
-            <p class="mt-2 font-extralight">
+            <p class="mt-2 font-extralight font-roboto">
               In BPC.zone i use to hangout with my friends to play online
               videogames. Specially Call of Duty.
             </p>
