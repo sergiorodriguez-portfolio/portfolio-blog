@@ -14,7 +14,7 @@
         </p>
         <p class="mt-4">
           Browse my latest projects
-          <a href="#"><span class="font-medium">below</span></a>
+          <a href="#below"><span class="font-medium">below</span></a>
           , view my
           <a
             href="https://drive.google.com/file/d/1Y3DkBsE-Y-IQ4KKHhAHf7lRP3hXHqkve/view?usp=sharing"
@@ -28,12 +28,12 @@
     </section>
 
     <!-- CARDS DE LOS PROYECTOS -->
-    <section class="py-12 space-y-12 font-sans">
+    <section id="below" class="py-12 space-y-24 font-sans lg:space-y-12">
       <!-- card de proyecto -->
       <article class="grid grid-cols-12 gap-4">
         <!-- imagen -->
         <img
-          src="sudoers.jpg"
+          src="app_image_sudoers.jpg"
           alt="project image"
           class="col-span-12 overflow-hidden shadow-md md:col-span-6 rounded-xl"
         />
@@ -47,6 +47,13 @@
               Sudoers is my personal business. With a couple of former
               colleagues, we made this enterprise to became independent.
             </p>
+            <div class="flex mt-4 space-x-3">
+              <icon-wordpress class="w-12 p-2 rounded bg-gray-50" />
+              <icon-mysql class="w-12 p-2 rounded bg-gray-50" />
+              <icon-bitnami class="w-12 p-2 rounded bg-gray-50" />
+              <icon-aws class="w-12 p-2 rounded bg-gray-50" />
+              <icon-lightsail class="w-12 p-2 rounded bg-gray-50" />
+            </div>
           </div>
         </div>
       </article>
@@ -54,7 +61,7 @@
       <article class="grid grid-cols-12 gap-4">
         <!-- imagen -->
         <img
-          src="telbook.jpg"
+          src="app_image_telbook.jpg"
           alt="project image"
           class="col-span-12 overflow-hidden shadow-md md:col-span-6 rounded-xl"
         />
@@ -62,12 +69,17 @@
         <div class="col-span-12 md:col-span-6">
           <div class="flex flex-col md:ml-4">
             <h3 class="text-2xl font-medium font-barlow">
-              <a href="https://www.sudoers.cl/">www.telbook.cl</a>
+              <a href="http://telbook.cl/">www.telbook.cl</a>
             </h3>
             <p class="mt-2 font-extralight font-roboto">
               Telbook is a SaaS to manage physical school books in a digital
               way, according to the government guidelines.
             </p>
+            <div class="flex mt-4 space-x-3">
+              <icon-vue class="w-12 p-2 rounded bg-gray-50" />
+              <icon-tailwind class="w-12 p-2 rounded bg-gray-50" />
+              <icon-heroku class="w-12 p-2 rounded bg-gray-50" />
+            </div>
           </div>
         </div>
       </article>
@@ -75,7 +87,7 @@
       <article class="grid grid-cols-12 gap-4">
         <!-- imagen -->
         <img
-          src="bpc.jpg"
+          src="app_image_bpc.jpg"
           alt="project image"
           class="col-span-12 overflow-hidden shadow-md md:col-span-6 rounded-xl"
         />
@@ -83,12 +95,19 @@
         <div class="col-span-12 md:col-span-6">
           <div class="flex flex-col md:ml-4">
             <h3 class="text-2xl font-medium font-barlow">
-              <a href="https://www.sudoers.cl/">www.bpc.zone</a>
+              <a href="https://www.bpc.zone/">www.bpc.zone</a>
             </h3>
             <p class="mt-2 font-extralight font-roboto">
               In BPC.zone i use to hangout with my friends to play online
               videogames. Specially Call of Duty.
             </p>
+            <div class="flex mt-4 space-x-3">
+              <icon-nuxt class="w-12 p-2 rounded bg-gray-50" />
+              <icon-keystone class="w-12 p-2 rounded bg-gray-50" />
+              <icon-mongo class="w-12 p-2 rounded bg-gray-50" />
+              <icon-tailwind class="w-12 p-2 rounded bg-gray-50" />
+              <icon-heroku class="w-12 p-2 rounded bg-gray-50" />
+            </div>
           </div>
         </div>
       </article>
@@ -97,7 +116,32 @@
 </template>
 
 <script>
+  import IconAws from "@/components/IconAws"
+  import IconBitnami from "@/components/IconBitnami"
+  import IconHeroku from "@/components/IconHeroku"
+  import IconKeystone from "@/components/IconKeystone"
+  import IconLightsail from "@/components/IconLightsail"
+  import IconMongo from "@/components/IconMongo"
+  import IconMysql from "@/components/IconMysql"
+  import IconNuxt from "@/components/IconNuxt"
+  import IconTailwind from "@/components/IconTailwind"
+  import IconVue from "@/components/IconVue"
+  import IconWordpress from "@/components/IconWordpress"
+
   export default {
-    name: "Home"
+    name: "Home",
+    components: {
+      IconAws,
+      IconBitnami,
+      IconHeroku,
+      IconKeystone,
+      IconLightsail,
+      IconMongo,
+      IconMysql,
+      IconNuxt,
+      IconTailwind,
+      IconVue,
+      IconWordpress
+    }
   }
 </script>

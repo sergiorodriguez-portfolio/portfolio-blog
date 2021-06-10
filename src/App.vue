@@ -8,17 +8,18 @@
         <a
           class="flex items-center mb-4 font-medium text-gray-900  title-font md:mb-0"
         >
-          <span class="ml-3 text-4xl text-white font-handwritten"
+          <span
+            class="ml-3 text-4xl text-white underline  lg:text-5xl font-handwritten text-shadow"
             >sergiorodriguez.dev</span
           >
         </a>
         <nav
-          class="flex flex-wrap items-center justify-center text-base  md:ml-auto font-barlow"
+          class="flex flex-wrap items-center justify-center text-2xl text-white  md:ml-auto font-barlow text-shadow"
         >
-          <a class="mr-5 hover:text-white">Work</a>
-          <a class="mr-5 hover:text-white">Skills</a>
-          <a class="mr-5 hover:text-white">About me</a>
-          <a class="mr-5 hover:text-white">Contact</a>
+          <a href="#" class="mr-5">Work</a>
+          <a href="#" class="mr-5">Skills</a>
+          <a href="#" class="mr-5">About me</a>
+          <a href="#" class="mr-5">Contact</a>
         </nav>
       </div>
     </header>
