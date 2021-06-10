@@ -1,15 +1,18 @@
 {
+  // Editor
+  "editor.rulers": [80],
+  "prettier.disableLanguages": ["html"],
+
   // ESLint + Prettier + Autosave
-  "eslint.validate": ["javascript", "vue", "html"],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  // "eslint.validate": ["javascript", "vue", "html"],
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
 
   // Colores
-  "peacock.color": "#251110",
   "workbench.colorCustomizations": {
     "activityBar.background": "#49211f",
     "titleBar.activeBackground": "#251110",
@@ -25,5 +28,6 @@
     "statusBarItem.hoverBackground": "#49211f",
     "titleBar.inactiveBackground": "#25111099",
     "titleBar.inactiveForeground": "#e7e7e799"
-  }
+  },
+  "peacock.color": "#251110"
 }

@@ -1,20 +1,14 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    node: true
   },
-  extends: [
-    'plugin:vue/recommended',
-    '@vue/standard',
-    'plugin:prettier/recommended',
-  ],
+  extends: ["plugin:vue/recommended", "@vue/standard", "prettier"],
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: "babel-eslint"
   },
   rules: {
-    'prettier/prettier': 'error',
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-  },
-  ignorePatterns: ['.node_modules/'],
+    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
+  }
 }
