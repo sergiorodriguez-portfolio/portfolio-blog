@@ -41,7 +41,7 @@
         <p
           class="mt-4 text-sm text-gray-500  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0"
         >
-          {{ new Date().getFullYear() }}
+          {{ new Date().getFullYear() }} 🇨🇱
         </p>
         <span
           class="inline-flex justify-center mt-4  sm:ml-auto sm:mt-0 sm:justify-start"

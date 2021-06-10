@@ -19,15 +19,15 @@
           to make beauty and practical web apps to solve real life problems.
         </p>
         <p class="mt-4">
-          Browse my latest projects
-          <a href="#below"><span class="font-medium">below</span></a>
-          , view my
+          Below are my
+          <a href="#below"><span class="font-medium">latest projects</span></a>
+          that i'm working on. You can also view my
           <a
             href="https://drive.google.com/file/d/1Y3DkBsE-Y-IQ4KKHhAHf7lRP3hXHqkve/view?usp=sharing"
           >
             <span class="font-medium">resume</span></a
           >
-          , or
+          , or just
           <a href="#"><span class="font-medium">say hey.</span></a>
         </p>
       </h2>
