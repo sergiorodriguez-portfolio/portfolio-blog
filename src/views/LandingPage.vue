@@ -3,14 +3,20 @@
     <!-- HERO -->
     <section class="py-20 font-sans">
       <h1 class="mt-6 text-5xl font-thin font-barlow lg:text-6xl w-6/6">
-        <p>Hi there!</p>
+        <p>
+          Hi there!
+          <span class="text-5xl"> 🙋‍♂️ </span>
+        </p>
         <p>My name is Sergio Rodriguez.</p>
       </h1>
       <h2 class="w-10/12 mt-3 font-thin m d:w-8/12 lg:w-6/12 xl:w-5/12">
         <p class="mt-4">
-          👋 I'm a self-made FullStack developer with focus on design and
-          usability. My desire is to make beauty and practical web apps to solve
-          real life problems.
+          I'm a self-made FullStack developer with focus on design and
+          usability.
+        </p>
+        <p class="mt-4">
+          Since i began to learn web development, my goal has always been able
+          to make beauty and practical web apps to solve real life problems.
         </p>
         <p class="mt-4">
           Browse my latest projects
